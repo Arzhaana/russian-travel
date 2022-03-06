@@ -1,0 +1,28 @@
+.header {
+  max-width: 1184px;
+  margin: 0 auto;
+  padding: 16px 16px 48px 16px;
+  background-color: #2A2C2F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-font-smoothing: antialiased;
+}
+  
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 28px 24px 48px 24px;
+  }
+}
+  
+@media screen and (min-width: 1024px) {
+  .header {
+    padding-bottom: 28px 48px 48px 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    padding: 28px 48px 56px 48px;
+  }
+}
