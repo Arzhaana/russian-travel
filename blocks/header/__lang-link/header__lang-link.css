@@ -1,5 +1,4 @@
 .header__lang-link {
-  display: block;
   color: #FFFFFF;
   font-family: 'Inter';
   font-style: normal;
@@ -7,6 +6,9 @@
   font-size: 18px;
   line-height: 20px;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
   transition: opacity 0.2s ease-in;
 }
   

@@ -1,5 +1,5 @@
 .lead__caption {
-  margin: 8px 0 0 24px;
+  margin: 0 auto 0 16px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
@@ -8,7 +8,13 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #FFFFFF;
-  align-self: start;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -17,7 +23,7 @@
   }
 }
 
-@media screen and (min-width: 1280) {
+@media screen and (min-width: 1280px) {
   .lead__caption {
     margin-left: 0;
   }

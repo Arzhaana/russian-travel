@@ -5,26 +5,25 @@
   font-size: 16px;
   line-height: 163%;
   color: #FFFFFF;
-  max-width: 720px;
-  margin: 0 0 34px 0;
+  text-align: left;
+  margin: 40px 0 34px 0;
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
   .intro__text {
-    margin: 0 0px 33px 0;
+    margin-bottom: 33px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .intro__text {
-    margin: 0 0px 33px 0;
-    max-width: 690px;
+    margin-bottom: 33px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .intro__text {
-    margin: 0 0px 33px 0;
-    max-width: 690px;
+    margin-bottom: 33px;
   }
 }
