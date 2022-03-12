@@ -1,5 +1,4 @@
 .header__logo {
-  object-fit: contain;
   width: 142px;
   height: 42px;
   margin: 0;
@@ -7,20 +6,6 @@
 }
   
 @media screen and (min-width: 768px) {
-  .header__logo {
-    width: 176px;
-    height: 52px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .header__logo {
-    width: 176px;
-    height: 52px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
   .header__logo {
     width: 176px;
     height: 52px;

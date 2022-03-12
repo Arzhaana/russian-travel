@@ -1,13 +1,17 @@
 .place {
-  margin: 50px 0 0 0;
+  margin: 0 0 50px 0;
   padding: 0;
   display: grid;
   -webkit-font-smoothing: antialiased;
 }
+
+.place:last-of-type {
+  margin-bottom: 0;
+}
   
 @media screen and (min-width: 768px) {
   .place {
-    margin-top: 73px;
+    margin-bottom: 73px;
     display: grid;
     grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
     grid-template-columns: minmax(340px, 1fr) minmax(352px, 1fr);
@@ -20,7 +24,7 @@
   
 @media screen and (min-width: 1024px) {
   .place {
-    margin-top: 80px;
+    margin-bottom: 80px;
     display: grid;
     grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
     grid-template-columns: minmax(440px, 1fr) minmax(456px, 1fr);
@@ -33,7 +37,6 @@
 
 @media screen and (min-width: 1280px) {
   .place {
-    margin-top: 80px;
     display: grid;
     grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
     grid-template-columns: minmax(460px, 1fr) minmax(456px, 1fr);

@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  -webkit-font-smoothing: antialiased;
 }
 
 @media screen and (min-width: 768px) {
