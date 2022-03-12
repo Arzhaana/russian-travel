@@ -1,9 +1,6 @@
 .intro {
   margin: 0;
   padding: 0 16px 64px 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 @media screen and (min-width: 768px) {
@@ -20,6 +17,8 @@
 
 @media screen and (min-width: 1280px) {
   .intro {
+    max-width: 690px;
+    margin: 0 auto;
     padding: 0 442px 92px 148px;
   }
 }

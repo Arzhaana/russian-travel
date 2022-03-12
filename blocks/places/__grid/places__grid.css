@@ -1,25 +1,30 @@
 .places__grid {
-    margin: 0;
-    padding: 64px 0 0 0;
     display: grid;
     grid-template-rows: repeat(minmax(min-content, max-content));
+    gap: 50px;
+    margin: 0;
+    padding: 64px 0 66px 0;
   }
     
   @media screen and (min-width: 768px) {
     .places__grid {
-      padding: 88px 24px 0 24px;
+      padding: 88px 24px 90px 24px;
+      gap: 73px;
     }
   }
     
   @media screen and (min-width: 1024px) {
     .places__grid {
-      padding: 92px 48px 0 48px;
+      padding: 92px 48px 92px 48px;
+      gap: 80px;
     }
   }
   
   @media screen and (min-width: 1280px) {
     .places__grid {
-      padding: 92px 148px 0 148px;
       max-width: 984px;
+      margin: 0 auto;
+      padding: 92px 148px 92px 148px;
+      gap: 80px;
     }
   }

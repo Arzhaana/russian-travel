@@ -1,5 +1,42 @@
 .cover__overley {
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   text-decoration: none;
   margin: 0;
   padding: 0;
+  z-index: 1;
+}
+
+.cover__overley::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: #000;
+  opacity: 0.3;
+  transition: opacity 350ms ease;
+}
+
+.cover__overley:hover::before {
+  opacity: 0.8;
+}
+
+@media screen and (min-width:1280px) {
+  .cover__overley {
+    width: 100%;
+    min-height: 0px;
+    height: 740px;
+  }
 }
