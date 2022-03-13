@@ -1,6 +1,5 @@
 .header {
   width: calc(100% - 32px);
-  max-height: 52px;
   margin: 0;
   padding: 16px 16px 48px 16px;
   display: flex;

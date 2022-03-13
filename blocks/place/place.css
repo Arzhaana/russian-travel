@@ -6,7 +6,6 @@
   
 @media screen and (min-width: 768px) {
   .place {
-    display: grid;
     grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
     grid-template-columns: minmax(340px, 1fr) minmax(352px, 1fr);
     gap: 48px 28px;
@@ -18,24 +17,14 @@
   
 @media screen and (min-width: 1024px) {
   .place {
-    display: grid;
-    grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
     grid-template-columns: minmax(440px, 1fr) minmax(456px, 1fr);
     gap: 48px 32px;
-    grid-template-areas:
-    "title website"
-    "image paragraphs";
   }
 }
 
 @media screen and (min-width: 1280px) {
   .place {
-    display: grid;
-    grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
     grid-template-columns: minmax(460px, 1fr) minmax(456px, 1fr);
     gap: 48px 40px;
-    grid-template-areas:
-    "title website"
-    "image paragraphs";
   }
 }

@@ -22,12 +22,6 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .lead__title {
-    margin: 0 104px;
-  }
-}
-
 @media screen and (min-width: 1280px) {
   .lead__title {
     margin: 0 132px;

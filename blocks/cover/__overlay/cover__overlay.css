@@ -1,4 +1,4 @@
-.cover__overley {
+.cover__overlay {
   position: relative;
   width: 100%;
   min-height: 62.5vw;
@@ -16,7 +16,7 @@
   z-index: 1;
 }
 
-.cover__overley::before {
+.cover__overlay::before {
   content: "";
   position: absolute;
   top: 0;
@@ -24,19 +24,17 @@
   right: 0;
   bottom: 0;
   z-index: -1;
-  background-color: #000;
+  background-color: #2A2C2F;
   opacity: 0.3;
   transition: opacity 350ms ease;
 }
 
-.cover__overley:hover::before {
+.cover__overlay:hover::before {
   opacity: 0.8;
 }
 
-@media screen and (min-width:1280px) {
-  .cover__overley {
-    width: 100%;
-    min-height: 0px;
-    height: 740px;
+@media screen and (min-width: 1280px) {
+  .cover__overlay {
+    min-height: 740px;
   }
 }
